@@ -1,5 +1,11 @@
+import ReferralManagerPage from "./pages/ReferralManager/ReferralManagerPage";
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div className="w-full min-h-screen bg-gradient-primary">
+      <ReferralManagerPage />
+    </div>
+  );
 };
 
 export default App;
