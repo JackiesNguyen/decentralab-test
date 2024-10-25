@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* colors */
+    --primary: #4eaefd;
+    --secondary: #97cffd;
+
+    /* gray */
+    --gray-1: #fcfcfd;
+    --gray-2: #c0c0c9;
+
+    /* neutral */
+    --neutral-4: #313856;
+    --neutral-6: #101423;
+  }
+
+  html {
+    font-family: "Anuphan", sans-serif;
+  }
+}
