@@ -17,7 +17,12 @@ export default {
         neutral: {
           4: "var(--neutral-4)",
           6: "var(--neutral-6)",
+          7: "var(--neutral-7)",
+          8: "var(--neutral-8)",
         },
+      },
+      screens: {
+        "2sm": "500px",
       },
     },
   },

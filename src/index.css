@@ -15,9 +15,53 @@
     /* neutral */
     --neutral-4: #313856;
     --neutral-6: #101423;
+    --neutral-7: #0b0e18;
+    --neutral-8: #10132d;
   }
 
   html {
     font-family: "Anuphan", sans-serif;
+  }
+
+  .bg-gradient-primary {
+    background: linear-gradient(270deg, var(--neutral-8), var(--neutral-7));
+    backdrop-filter: blur(2.808971643447876px);
+  }
+
+  .bg-gradient-secondary {
+    background: conic-gradient(
+      from 125deg at 49.86% 36.95%,
+      #abeca2 0.06157743162475526deg,
+      #2fb3fe 111.61384105682373deg,
+      #6a8eea 233.41029167175293deg,
+      #a185f4 354.35500144958496deg
+    );
+    position: relative;
+  }
+
+  .bg-gradient-secondary::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+  }
+
+  .gradient-text {
+    background: linear-gradient(
+      90deg,
+      #abeca2 -1.42%,
+      #2fb3fe 30.38%,
+      #6a8eea 65.09%,
+      #a185f4 99.55%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
   }
 }
